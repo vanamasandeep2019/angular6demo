@@ -1,0 +1,17 @@
+.address-card{
+    border: 1px pink;
+    padding : 15px;
+}
+
+.name{
+    font-size: 20;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: blue;
+}
+
+.title{
+    font-style: italic;
+    background-color:chocolate;
+    color: white;
+}
