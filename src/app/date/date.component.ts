@@ -9,6 +9,7 @@ import { interval } from 'rxjs';
 export class DateComponent implements OnInit {
 
   dateMessage:string;
+  someNumber:number=10;
 
   constructor() { 
     setInterval(()=>{
@@ -20,6 +21,10 @@ export class DateComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  addTwoNumber(a:number,b:number){
+    return a+b;
   }
 
 }
